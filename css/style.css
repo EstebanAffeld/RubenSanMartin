@@ -254,6 +254,14 @@ main {
 
 }
 
+.responsive{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
 /* Carta */
 
 .cards {
