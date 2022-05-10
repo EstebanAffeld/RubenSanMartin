@@ -38,7 +38,7 @@ header ul li {
 
 header ul li a {
   display: inline-block;
-  color: #0169b2;
+  color: #073d64;
   font-weight: 600;
   font-size: 1.1em;
   margin-left: 10px;
@@ -88,9 +88,9 @@ header {
   height: 1000px;
   background: #bc4e9c;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, hsla(229, 84%, 51%, 0.459), hsla(195, 44%, 48%, 0.664)), url(../assets/pintura.jpg);
+  background: -webkit-linear-gradient(to right, hsla(229, 87%, 29%, 0.459), hsla(195, 44%, 48%, 0.843)), url(../assets/pintura.jpg);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, hsla(252, 82%, 49%, 0.459), hsla(204, 52%, 50%, 0.664)), url(../assets/pintura.jpg);
+  background: linear-gradient(to right, hsla(252, 82%, 49%, 0.459), hsla(204, 52%, 50%, 0.932)), url(../assets/pintura.jpg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-attachment: fixed;
@@ -178,6 +178,9 @@ main {
   padding: 10px;
   border: 5px solid var(--logotipo);
   color: var(--logotipo);
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
 }
 
 .logotipo .subtitulo {
@@ -255,13 +258,15 @@ main {
 }
 
 .responsive{
-  display: flex;
-  flex-direction: row-reverse;
+ 
+  flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  display: flex;
 }
+
 /* Carta */
 
 .cards {
@@ -393,6 +398,7 @@ main {
   justify-content: space-between;
   align-items: center;
   transition: 1s;
+  
 }
 
 .sec.active {
